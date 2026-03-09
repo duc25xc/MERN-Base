@@ -22,6 +22,7 @@ Mỗi khi khởi động một dự án MERN mới, bạn phải lặp lại cù
 ## ✨ Có gì trong này?
 
 ### Backend — Express 5 + MongoDB
+
 - Cấu trúc **MVC + Service Layer** rõ ràng, dễ mở rộng
 - **Express 5** với ES Modules (`type: "module"`)
 - **Mongoose 9** kết nối MongoDB
@@ -29,12 +30,14 @@ Mỗi khi khởi động một dự án MERN mới, bạn phải lặp lại cù
 - Thư mục `config/`, `middlewares/`, `utils/` cho các logic dùng chung
 
 ### Frontend — React 19 + Vite 7
+
 - **Vite 7** — build cực nhanh, HMR mượt mà
 - **React 19** với cấu trúc thư mục rõ ràng
 - Thư mục `api/`, `hooks/`, `context/`, `layouts/`, `pages/`, `components/`
 - **ESLint + Prettier** được cấu hình và tích hợp sẵn
 
 ### Developer Experience
+
 - Chạy **cả backend lẫn frontend** chỉ với 1 lệnh từ root
 - `.env.example` để team biết cần config gì
 - `docs/` với hướng dẫn setup, tips và danh sách thư viện gợi ý
@@ -80,7 +83,7 @@ mern-base/
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/ducowo/mern-base.git my-project
+git clone https://github.com/duc25xc/MERN-Base.git my-project
 cd my-project
 ```
 
@@ -121,29 +124,29 @@ npm run dev
 
 | Service  | URL                   |
 | -------- | --------------------- |
-| Backend  | http://localhost:5000  |
-| Frontend | http://localhost:5173  |
+| Backend  | http://localhost:5000 |
+| Frontend | http://localhost:5173 |
 
 ---
 
 ## 🛠️ Scripts
 
-| Lệnh             | Mô tả                          |
-| ---------------- | ------------------------------ |
-| `npm run dev`    | Chạy cả backend + frontend     |
-| `npm run dev:be` | Chỉ chạy backend               |
-| `npm run dev:fe` | Chỉ chạy frontend              |
+| Lệnh             | Mô tả                      |
+| ---------------- | -------------------------- |
+| `npm run dev`    | Chạy cả backend + frontend |
+| `npm run dev:be` | Chỉ chạy backend           |
+| `npm run dev:fe` | Chỉ chạy frontend          |
 
 ---
 
 ## 📦 Tech Stack
 
-| Layer     | Technology                        |
-| --------- | --------------------------------- |
-| Frontend  | React 19, Vite 7                  |
-| Backend   | Node.js, Express 5                |
-| Database  | MongoDB, Mongoose 9               |
-| Dev Tools | ESLint, Prettier, Nodemon         |
+| Layer     | Technology                |
+| --------- | ------------------------- |
+| Frontend  | React 19, Vite 7          |
+| Backend   | Node.js, Express 5        |
+| Database  | MongoDB, Mongoose 9       |
+| Dev Tools | ESLint, Prettier, Nodemon |
 
 ---
 
@@ -157,11 +160,11 @@ npm run dev
 
 ## 📖 Tài liệu
 
-| File                   | Nội dung                              |
-| ---------------------- | ------------------------------------- |
-| `docs/setup.md`        | Hướng dẫn setup chi tiết từng bước   |
-| `docs/libraries.md`    | Gợi ý thư viện theo từng use case    |
-| `docs/tips.md`         | Tips khi phát triển với stack này     |
+| File                | Nội dung                           |
+| ------------------- | ---------------------------------- |
+| `docs/setup.md`     | Hướng dẫn setup chi tiết từng bước |
+| `docs/libraries.md` | Gợi ý thư viện theo từng use case  |
+| `docs/tips.md`      | Tips khi phát triển với stack này  |
 
 ---
 
